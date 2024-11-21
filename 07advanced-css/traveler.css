@@ -1,0 +1,263 @@
+body {
+    
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;  
+  margin:0;
+    
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;     
+  margin:0;
+}
+
+/*Header*/
+header {
+    background-color: #E0E033;
+    padding: 1rem  .5vw .5vw;
+    display: flex;
+}
+ header h1{
+    margin: 0;
+     color: #73C121;
+    
+}
+ header p {
+    margin: 0;
+     color: #73C121;
+     letter-spacing: 0px;
+}
+/*nav*/
+nav{
+    background-color: #E0C423;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin:0;
+    display: flex;
+}
+nav a{
+    font-size:1.1rem;
+    text-decoration: none;
+    color: #73C121;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #BC02DE;
+        color: #73C121;
+}
+nav a:hover {
+    color: white;
+}
+/*stufs for the main*/
+main{
+    padding: 1rem 2vw;
+}
+main h1{
+    color: #73C121;
+}
+
+main h2{
+    color: #73C121;
+    margin-bottom: .2rem;
+}
+ 
+main p {
+    color: #AAA661;
+    margin: 0 0 .3rem 0;
+}
+main ol{
+    padding: .5rem 3vw;
+    background-color: #F4F5BD;
+    color:#897B56
+}
+main dl dt {
+    color:#65B835;
+    font-weight:700;
+}
+main dl dd {
+    color:#A7A77F;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+
+}
+
+main address {
+    font-style: normal;
+    background-color:#D7D40F;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #024873;
+    border-radius : .5rem;
+    color:#626107;
+}
+main a {
+    color:#BC02DE
+}
+main a:hover {
+    color: rgb(239,0,24);
+}
+
+div.pineapples {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.pineapples figcaption{
+    text-align: center;
+    font-size: .8rem;
+        color: #BC02DE;
+}
+
+
+
+.myForm fieldset{
+    border: 1px solid #BC02DE;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend {
+    color: #BC02DE;
+    font-size: .8rem;
+    
+}
+.myForm label {
+    margin: .5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+
+}
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+    display: block;
+}
+
+.myForm [type=text], my Form [type=tel], .myForm select, .myForm textarea
+{
+ border: solid 1px #888;
+ padding: .3rem;
+ width: 250px;
+ border-radius: .3rem;
+ font-family: 'Montserrat Alternates', sans-serif;
+ font-weight: 200;
+}
+.myForm textarea{
+    height: 6rem;
+    
+}
+.myForm :required {
+    background-color: #D7D40F;
+}
+.myForm [type=submit] {
+    background-color: #BC02DE;
+    border:none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color:white;
+    margin: 1rem 0 0 1vw;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    nav ul{ 
+    margin: 0px;
+    padding: 0 2vw;
+    list-style-type: none;
+    }
+    
+    nav a{
+        display: flex;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 700;
+    
+        text-align: center;
+        border-bottom: solid 1px #aaa;
+        color: #73C121;
+        
+    }
+
+    nav .active a {
+        background-color: #BC02DE;
+        background-image: linear-gradient( to bottom, #BC02DE, #C242E1);
+        color: white;
+    }
+}
+}/*BIG SCREENS*/
+
+@media only screen and (min-width: 601px) {
+    
+    nav {
+    border-top: solid 1px #E0E6E6;
+    
+}
+nav ul {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 1.2rem 1rem .3rem 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #8C501B;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: solid 2px #fff;
+}
+
+nav .active a {
+    border-bottom: solid 2px #8b5022;
+}
+nav a:hover {
+    color: #000;
+}
+    
+}/*end of the media query*/
+
+
+ .pineapples img:hover{
+ box-shadow: 0px 0px 10px black;
+
+}
+
+
+
+/*footer*/
+
+footer{
+    background-color: #F4F5BD;
+    text-align: center;
+    color: #000000;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color:#BC02DE;
+}
+
+
+
+
+
+
+
+
+
